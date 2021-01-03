@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px dotted blueviolet; */
+}
+#HiLo{
+    padding: 10px;
+}
+#HiLo h3 h4{
+    padding: 10px;
+}
+#HiLo table{
+    padding: 10px;
+    margin: 0 auto;
+}
+tr, th, td{
+    padding: 10px;
+    border: 2px solid black
+}

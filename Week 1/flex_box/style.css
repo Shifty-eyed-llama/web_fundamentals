@@ -1,0 +1,36 @@
+*{
+    font: montserrat;
+}
+.center-box {
+    width: 900px;
+    height: 300px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-item {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.head {
+    color: white;
+    width: 900px;
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+ul li {
+    display: inline;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}

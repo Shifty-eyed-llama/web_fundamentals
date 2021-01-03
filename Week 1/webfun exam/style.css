@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    /* border: 1px dotted yellowgreen; */
+}
+body {
+    width: 970px;
+    margin: 0 auto;
+}
+#container {
+    background-color: black;
+    padding: 5px;
+}
+#head {
+    background-color: rgb(25, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#head p {
+    color: whitesmoke;
+    font-weight: bold;
+    align-self: flex-start;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-image: linear-gradient(darkslategrey, black);
+    padding: 15px;
+}
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 5px;
+    border-left: 1px solid grey;
+    padding: 10px 25px;
+}
+#mainimg {
+    width: 100%;
+}
+#features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 5px solid darkslategrey;
+    padding: 30px 15px;
+    background-color: rgb(25, 36, 36);
+}
+#features .description h3 {
+    color: orange;
+    font-weight: normal;
+    padding: 5px;
+}
+#features .description p {
+    color: whitesmoke;
+    padding: 5px;
+    font-weight: lighter;
+}
+#buyNow {
+    display: flex;
+    background-image: repeating-linear-gradient(
+        -55deg,
+        #222222,
+        #222222 1px,
+        #000000 1px,
+        #000000 3px
+    );
+    justify-content: space-between;
+}
+#buyIt {
+    color: whitesmoke;
+    width: 70%;
+    padding: 20px;
+}
+#buyIt p {
+    font-weight: light;
+    padding: 10px 0px;
+}
+#buyNow button {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    align-self: center;
+    margin-right: 40px;
+}
+#porthead {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 36, 36);
+    padding: 20px;
+}
+#porthead h3 {
+    color: whitesmoke;
+    font-weight: 100;
+}
+#porthead p {
+    color: orange;
+    font-size: smaller;
+    align-self: center;
+}
+#portfolio {
+    background-color: rgb(25, 36, 36);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.projects h4 {
+    color: orange;
+    padding: 10px 0px;
+}
+.projects p {
+    color: white;
+    padding: 10px 10px 10px 0px;
+}
+.projects img {
+    border: 5px solid darkslategray;
+}
+#totop {
+    text-align: right;
+    padding: 10px;
+    font-size: smaller;
+    color: white;
+}
+#totop a {
+    color: darkslategray;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px dotted red; */
+}
+body {
+    margin: 0px auto;
+}
+#cat {
+    position: absolute;
+    width: 350px;
+    left: 300px;
+    top: 50px;
+}
+#cat img {
+    width: 350px;
+}
+#ninja {
+    position: absolute;
+    width: 350px;
+    left: 300px;
+    top: 50px;
+}
+#ninja img {
+    width: 350px;
+}

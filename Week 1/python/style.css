@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px dotted rgb(55, 240, 55);
+    text-decoration: none;
+}
+body {
+    width: 970px;
+    margin: 0 auto;
+}
+#container {
+    background-color: rgb(32, 32, 138);
+}
+#head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#head img {
+    width: 300px;
+}
+#searchbar {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#search {
+    display: block;
+    text-align: center;
+}
+#search p {
+    color: white;
+}
+#search p a {
+    color: yellow;
+}
+#searchbar #button {
+    padding: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+}
+#searchinp {
+    padding: 5px;
+    border-radius: 5px;
+}
+#shortcuts {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin-left: 5%;
+    height: 25px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;;
+}
+#shortcuts h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#nav {
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 20%;
+    vertical-align: top;
+}
+#nav ul {
+    list-style: '>>' inside;
+    text-align: center;
+    padding: 10px;
+}
+#nav ul li{
+    margin-bottom: 5px;
+}
+#nav ul li a {
+    color: white;
+}
+#zen {
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+    color: white;
+    margin: 20px 30px 30px 30px;
+    padding: 10px;
+}
+#zen p, .better {
+    padding: 10px;
+}
+.better {
+    color: yellow;
+    font-style: italic;
+    font-size: large;
+}
+#beginners {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.application {
+    display: inline-block;
+    width: 40%;
+    border-top: 5px solid blueviolet;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.application h4, .application p{
+    padding: 10px;
+}
+.application ul li{
+    margin-bottom: 5px;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(blue, green);
+    padding: 10px;
+    height: 50px;
+}
+#footer p a{
+    color: cornflowerblue;
+}

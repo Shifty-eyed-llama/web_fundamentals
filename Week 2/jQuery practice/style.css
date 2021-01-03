@@ -1,0 +1,14 @@
+#container {
+    height: 700px;
+    width: 700px;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+.oh_no {
+    color: crimson;
+}
+
+.class_example2{
+    color: orange;
+}

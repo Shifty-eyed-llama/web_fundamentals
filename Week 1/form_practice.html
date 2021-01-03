@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Practice</title>
+    </head>
+    <body>
+        <form>
+            <h2>Registration Form</h2>
+            <p>    
+                <label for="firstName">First Name:</label><br>
+                <input type="text" id="firstName" name="firstName">
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" id="lastName" name="lastName">
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email">
+            </p>
+            <p>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password">
+            </p>
+            <p>
+                <label for="pass-confirm">Confirm Password:</label><br>
+                <input type="password" id="pass-confirm" name="pass-confirm">
+            </p>
+            <p>
+                <label for="birthday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday">
+            </p>
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="Other">
+            </p>
+            <p>
+                <label for="description">Tell us a little about yourself:</label><br>
+                <textarea id="description" name="description" rows="5" cols="50"></textarea>
+            </p>
+            <p>
+                <label for="fav-lang">Favorite Language:</label>
+            <!-- <input type="select" id="fav-lang" name="fav-lang"> -->
+                <select id="fav-lang" name="fav-lang">
+                    <option value="no selection">No Selection</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="python">Python</option>
+                    <option value="go">Go</option>
+                    <option value="c#">C#</option>
+                </select>
+            </p>
+            <p>
+                <label for="submit"></label>
+                <input type="button" id="submit" name="submit" value="Submit">
+            </p>
+        </form>
+    </body>
+</html>

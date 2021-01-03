@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px dotted greenyellow;
+}
+#container {
+    background-color: seagreen;
+    width: 1200px;
+    height: 100%;
+}
+#head {
+    display: flex;
+    justify-content: center;
+}
+#head img {
+    width: 250px;
+}
+#head h1 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+#row1, #row2, #row3, #row4, #row5 {
+    display: flex;
+    width: 100%;
+}
+.blocks {
+    justify-content: center;
+}
+.blocks img{
+    border: 5px solid black;
+    width: 18%; 
+    margin: 5px 5px 0px 0px;
+}
